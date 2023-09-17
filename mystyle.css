@@ -1,0 +1,103 @@
+/*global*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial;
+}
+p{
+    line-height: 2;
+}
+h1,h2{
+    text-align: center;
+    padding: 20px;
+}
+h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+/*utilities*/
+.container{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-more{
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 20%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.btn-minfo{
+    display: block;
+    background-color: #8F471E;
+    color: white;
+    text-decoration: none;  
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 20%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+/*header*/
+header{
+    background-image: url(./img/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+    text-align: center;
+}
+header h1{
+    color: white;
+}
+header p{
+    color: white;
+}
+header a{
+    color: white;
+}
+/*footer*/
+footer{
+    background-color: black;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    height: 125px;
+    font-family: arial;
+}
+footer h2{
+    color: white;
+}
+footer nav{
+    text-decoration: none;
+}
+footer a{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
